@@ -15,8 +15,8 @@ const devConfig = {
       index: 'index.html',
     },
     headers: {
-      'Access-Control-Allow-Origin': '*'
-    }
+      'Access-Control-Allow-Origin': '*',
+    },
   },
   plugins: [
     new ModuleFederationPlugin({
